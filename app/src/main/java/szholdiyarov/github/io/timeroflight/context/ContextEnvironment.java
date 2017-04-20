@@ -1,4 +1,4 @@
-package szholdiyarov.github.io.timeroflight;
+package szholdiyarov.github.io.timeroflight.context;
 
 import android.content.Context;
 
@@ -12,7 +12,7 @@ import android.content.Context;
  */
 public interface ContextEnvironment {
 	
-	boolean execute(Runnable task);
+	void execute(Runnable task);
 	
 	Context getContext();
 	
