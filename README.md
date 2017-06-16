@@ -13,3 +13,8 @@ You need to:
 3. Simply call StopwatchTimer(ContextEnvironment context, int timerCountdownStartingPoint, StopwatchTimerListener listener) where you need a timer.
 
 
+Example(assume you use BaseActivity):
+
+1. BaseActivity.java
+``` 	private ExecutionContextImpl execContext; ```
+
